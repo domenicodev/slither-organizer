@@ -8,6 +8,7 @@ Visit https://github.com/crytic/slither for informations about slither installat
 
 
 ### **Create output directory**
+
 Create a directory named 'output' in the parent directory, it will be the output directory of slither findings.
 
 ### **Analyze slither contracts and produce outputs**
