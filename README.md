@@ -6,6 +6,7 @@ A tool to organize slither logs in JSON files, sorted by vulnerability and organ
 ### **Install slither**
 Visit https://github.com/crytic/slither for informations about slither installation and setup
 
+
 ### **Create output directory**
 Create a directory named 'output' in the parent directory, it will be the output directory of slither findings.
 
