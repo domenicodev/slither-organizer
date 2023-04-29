@@ -1,0 +1,19 @@
+{
+  "name": "slither-organizer",
+  "version": "1.0.0",
+  "description": "A tool to organize slither logs in JSON files, sorted by impact and organized in keywords",
+  "main": "index.ts",
+  "scripts": {
+    "analyze": "slither contracts --json output/\"$(date +\"%FT%T\")\".json",
+    "organize": "ts-node organize.ts",
+    "merge": "ts-node merge.ts"
+  },
+  "author": "domenicodev",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "sol-merger": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

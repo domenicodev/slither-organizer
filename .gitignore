@@ -1,0 +1,6 @@
+# Ignore compilation files
+node_modules
+yarn.lock
+
+# Ignore outputs
+contracts/_merged/*
